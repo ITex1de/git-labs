@@ -11,6 +11,7 @@ class Matrix {
     public:
     Matrix(int i, int j) : i(i), j(j), matrix(i, vector<T>(j)) {}
 
+    
     void set_values() {
         cout << "Размер матрицы: " << i << "x" << j << "\n";
         for (int row = 0; row < i; ++row) {

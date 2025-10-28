@@ -8,4 +8,5 @@ int main() {
     SetConsoleOutputCP(1251);
     
     cout << "Hello World!";
+    
 }
